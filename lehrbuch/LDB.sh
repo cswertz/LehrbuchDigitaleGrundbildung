@@ -2,10 +2,19 @@
 # Autor: Christian Swertz
 # Lizenz: CC-BY
 # Dieses Script erzeugt aus den Dateien für das Lehrbuch Digitale Grundbildung automatisch eine pdf - Version und eine epub-Version.
-# Erforderliche Pakete: git, pandoc, texlive
+# erforderliche Pakete: git, pandoc, texlive, prince
+# start per cronjob 
+# setzt für git - Zugriff gespeichertes Passwort voraus
+# für git - Zugriff mit "LDB.sh server" aufrufen
 
-# Dateien aktualisieren
-# git pull origin master
+if [ "$1" == server ]; then
+  
+  # Dateien aktualisieren, Abbruch wenn es nichts neues gibt
+  if git pull origin master | grep up-to-date; 
+    then exit 1
+  fi
+
+fi
 
 # HTML - Start (Header) einfügen, dabei vorhandene Datei überschreiben
 cat LDB_HtmlStart.html > LDB.html
@@ -28,12 +37,15 @@ prince LDB.html
 # Grafikdateien löschen
 rm *.jpg
 
-# Neue Dateien dem Repository hinzugügen
-# git add LDB.pdf
-# git add LDB.epub
-# git commit -m "Neue Version erzeugt"
+if [ "$1" == server ]; then
 
-# Neue Dateien hochladen
-# git push origin master
+  # Neue Dateien dem Repository hinzugügen
+  git add LDB.pdf
+  # git add LDB.epub
+  now=$(date "+%d.%m.%Y %H:%M:%S")
+  git commit -m "Neue pdf Version erzeugt am $now"
 
-
+  # Neue Dateien hochladen
+  git push origin master
+  
+fi
