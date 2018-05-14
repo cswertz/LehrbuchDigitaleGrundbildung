@@ -99,7 +99,8 @@ h3 {
 }
 
 
-p {  
+p {
+  font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
   font-size: 9.5pt;
   line-height: 125%;
   text-align: justify;
@@ -110,6 +111,25 @@ p {
   margin-bottom: 2pt;
 }
 
+td{
+  font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
+  font-size: 9.5pt;
+  line-height: 100%;
+  text-align: left;
+  hyphens: auto;
+  page-break-inside: avoid;
+}
+
+th{
+  font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
+  font-size: 9.5pt;
+  font-style: bold;
+  line-height: 100%;
+  text-align: left;
+  hyphens: auto;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
 
 div.AufgabeEinspaltig {
   background-color: #ffe699;
@@ -121,8 +141,7 @@ div.AufgabeEinspaltig {
   padding: 5pt;
   margin-top: 15pt;
   margin-bottom: 15pt;
-  page-break-inside: avoid;
-  
+  page-break-inside: avoid;  
 }
 
 div.AufgabeZweispaltig {
@@ -150,7 +169,6 @@ div.Infobox {
   page-break-inside: avoid;
   margin-top: 15pt;
   margin-bottom: 15pt;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
 figure {
@@ -167,6 +185,7 @@ figure.Zweispaltig {
 
 
 figcaption {
+  font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
   padding: 5px;
   text-align: center;
   font-size: 6pt;
