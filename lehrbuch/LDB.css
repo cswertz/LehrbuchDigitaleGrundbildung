@@ -84,6 +84,7 @@ h2 {
   font-style: bold;
   margin-top: 15pt;
   margin-bottom: 15pt;
+  line-height: 125%;
 }
 
 h2.Zweispaltig {
@@ -137,7 +138,6 @@ li {
   line-height: 100%;
   text-align: left;
   hyphens: auto;
-  page-break-inside: avoid;
 }
 
 div.AufgabeEinspaltig {
