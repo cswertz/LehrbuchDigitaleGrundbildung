@@ -85,6 +85,8 @@ h2 {
   margin-top: 15pt;
   margin-bottom: 15pt;
   line-height: 125%;
+  break-inside: avoid-column;
+  page-break-inside: avoid;
 }
 
 h2.Zweispaltig {
@@ -97,6 +99,8 @@ h3 {
   font-style: bold;
   margin-top: 2pt;
   margin-bottom: 15pt;
+  break-inside: avoid-column;
+  page-break-inside: avoid;
 }
 
 
@@ -130,6 +134,10 @@ th {
   hyphens: auto;
   page-break-inside: avoid;
   page-break-after: avoid;
+}
+
+ul {
+ padding-left: 0px;
 }
 
 li {
