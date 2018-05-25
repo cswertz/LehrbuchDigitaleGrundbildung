@@ -1,8 +1,8 @@
-# H1 Lehrbuch Digitale Grundbildung
+# Lehrbuch Digitale Grundbildung
 
 Das OER - Lehrbuch Digitale Grundbildung ist konzipiert für den Unterricht in der verbindlichen Übung "Digitale Grundbildung" in der Sekundarstufe I in Österreich.
 
-# H1 Kurzanleitung
+# Kurzanleitung
 
 1. Registrieren Sie sich bei Github.
 2. Bestätigen Sie die Bestätigungsmail.
@@ -14,7 +14,7 @@ Das OER - Lehrbuch Digitale Grundbildung ist konzipiert für den Unterricht in d
 8. Klicken Sie auf "Create pull request"
 9. Klicken Sie noch einmal auf "Create pull request"
 
-# H1 Übersicht
+# Übersicht
 
 * Das Projekt verwendet drei Hauptordner:
 
@@ -22,7 +22,7 @@ Das OER - Lehrbuch Digitale Grundbildung ist konzipiert für den Unterricht in d
 - grundlagen
 - lehrbuch
 
-# H1 Schreibstil
+# Schreibstil
 
 * Das Projekt verwendet HTML5 als Dateiformat und CSS als Auszeichnungssprache. Für jedes Kapitel wird eine Datei verwendet. Ein Beispiel für ein Kapiteldatei ist beispiele/kapitel.html.
 
