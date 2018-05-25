@@ -136,13 +136,17 @@ th {
   page-break-after: avoid;
 }
 
+ul {
+  margin: 5px;
+  padding: 0;
+}
+
 li {
   font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
   font-size: 9pt;
   line-height: 100%;
   text-align: left;
   hyphens: auto;
-  margin-left: 5px;
 }
 
 div.AufgabeEinspaltig {
