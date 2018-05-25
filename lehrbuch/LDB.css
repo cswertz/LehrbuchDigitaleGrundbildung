@@ -129,7 +129,7 @@ th {
   font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
   font-size: 9.5pt;
   font-style: bold;
-  line-height: 100%;
+  line-height: 105%;
   text-align: left;
   hyphens: auto;
   page-break-inside: avoid;
@@ -144,7 +144,7 @@ ul {
 li {
   font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
   font-size: 9pt;
-  line-height: 100%;
+  line-height: 105%;
   text-align: left;
   hyphens: auto;
 }
