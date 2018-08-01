@@ -4,6 +4,14 @@
   margin-bottom: 1,8cm;
 }
 
+@page coverpage {
+  size: A4 portrait;
+  margin-top: 0,5cm;
+  margin-bottom: 0,5cm;
+  background-color: #5c5c5c;
+}
+
+
 @page:left {
   margin-left: 1,3cm;
   margin-right: 2cm;
@@ -62,6 +70,10 @@
   }
 
 }
+
+div.coverpage {
+    page: coverpage;
+} 
 
 body {
   column-count: 2;
