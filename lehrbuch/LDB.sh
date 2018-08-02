@@ -27,6 +27,8 @@ cat LDB_HtmlEnde.html >> LDB.html
 
 # Grafikdateien aus allen Verzeichnissen in aktuelles Verzeichnis kopieren
 find . -mindepth 2 -name '*.jpg' -exec cp '{}' "./" ';'
+find . -mindepth 2 -name '*.png' -exec cp '{}' "./" ';'
+find . -mindepth 2 -name '*.gif' -exec cp '{}' "./" ';'
 
 # pdf und epub - Datei erzeugen
 prince LDB.html
@@ -35,7 +37,7 @@ prince LDB.html
 # wkhtmltopdf LDB.html LDB.pdf
 
 # Grafikdateien löschen
-rm *.jpg
+rm *.jpg *.png *.gif
 
 if [ "$1" == server ]; then
 
