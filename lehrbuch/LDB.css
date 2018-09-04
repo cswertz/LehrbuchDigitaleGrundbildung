@@ -4,6 +4,32 @@
   margin-bottom: 1,8cm;
 }
 
+@page:first {
+  margin-left: 2cm;
+  margin-right: 2cm;
+  background-color: #5c5c5c;
+  @top-right {
+    content: "";
+  }
+  @bottom-right {
+    content: "";
+  }
+}
+
+@page coverpage {
+  margin-left: 2cm;
+  margin-right: 2cm;
+  background-color: #5c5c5c;
+  @top-right {
+    content: "";
+  }
+  @bottom-right {
+    content: "";
+  }
+
+}
+
+
 @page:left {
   margin-left: 1,3cm;
   margin-right: 2cm;
@@ -34,19 +60,6 @@
   }
 }
 
-@page:first {
-  margin-top: 1,3cm;
-  margin-bottom: 1,3cm;
-  margin-left: 1,3cm;
-  margin-right: 1,3cm;
-  @top-right {
-    content: "";
-  }
-  @bottom-right {
-    content: "";
-  }
-}
-
 @media print {
 
   h1 {
@@ -63,6 +76,10 @@
 
 }
 
+div.coverpage {
+    page: coverpage;
+} 
+
 body {
   column-count: 2;
   column-gap: 0,449cm;
@@ -70,7 +87,7 @@ body {
 }
 
 h1 {
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 20pt;
   column-span: all;
   text-align: center;
@@ -79,7 +96,7 @@ h1 {
 }
 
 h2 {
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 12pt;
   font-style: bold;
   margin-top: 15pt;
