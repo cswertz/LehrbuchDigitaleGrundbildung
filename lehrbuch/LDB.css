@@ -111,7 +111,7 @@ h2.Zweispaltig {
 }
 
 h3 {
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 12pt;
   font-style: bold;
   margin-top: 2pt;
@@ -198,8 +198,6 @@ div.Infobox {
   border-width: 1pt;
   border-color: #66cccc;
   padding: 3pt;
-  font-size: 8pt;
-  line-height: 100%;
   text-align: left;
   page-break-inside: avoid;
   margin-top: 15pt;
