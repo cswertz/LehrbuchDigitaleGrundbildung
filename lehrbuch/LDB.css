@@ -26,7 +26,6 @@
   @bottom-right {
     content: "";
   }
-
 }
 
 
@@ -82,6 +81,7 @@ div.coverpage {
 
 body {
   column-count: 2;
+  column-width: 50%;
   column-gap: 0,449cm;
   counter-reset: page 0;
 }

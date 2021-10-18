@@ -31,10 +31,8 @@ find . -mindepth 2 -name '*.png' -exec cp '{}' "./" ';'
 find . -mindepth 2 -name '*.gif' -exec cp '{}' "./" ';'
 
 # pdf und epub - Datei erzeugen
-prince LDB.html
-# pandoc LDB.html -s -o LDB.pdf
-# pandoc LDB.html -s -o LDB.epub
-# wkhtmltopdf LDB.html LDB.pdf
+
+prince LDB.html -o LDB.pdf
 
 # Grafikdateien löschen
 rm *.jpg *.png *.gif
