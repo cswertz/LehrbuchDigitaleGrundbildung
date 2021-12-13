@@ -10,8 +10,8 @@
 if [ "$1" == server ]; then
   
   # Dateien aktualisieren, Abbruch wenn es nichts neues gibt
-  if git pull origin master | grep up-to-date; 
-    then exit 1
+  if git pull origin master | grep aktuell; 
+    then exit 0
   fi
 
 fi
@@ -32,7 +32,7 @@ find . -mindepth 2 -name '*.gif' -exec cp '{}' "./" ';'
 
 # pdf und epub - Datei erzeugen
 
-prince LDB.html -o LDB.pdf
+prince LDB.html -o LDB.pdf >> render_log.txt 2>&1
 
 # Grafikdateien löschen
 rm *.jpg *.png *.gif
@@ -41,6 +41,7 @@ if [ "$1" == server ]; then
 
   # Neue Dateien dem Repository hinzugügen
   git add LDB.pdf
+  git add render_log.txt
   # git add LDB.epub
   now=$(date "+%d.%m.%Y %H:%M:%S")
   git commit -m "Neue pdf Version erzeugt am $now"
