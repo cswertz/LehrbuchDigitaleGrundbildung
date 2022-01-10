@@ -35,12 +35,12 @@
   @bottom-left {
     content: counter(page);
     font-size: 8pt;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: Neue Helvetica, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
   @top-left {
     content: string(doctitle);
     font-size: 8pt;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: Neue Helvetica, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -50,12 +50,12 @@
   @bottom-right {
     content: counter(page);
     font-size: 8pt;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: Neue Helvetica, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
   @top-right {
     content: string(doctitle);
     font-size: 8pt;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: Neue Helvetica, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 h1 {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Neue Helvetica, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 20pt;
   column-span: all;
   text-align: center;
@@ -96,7 +96,7 @@ h1 {
 }
 
 h2 {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Neue Helvetica, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 12pt;
   font-style: bold;
   margin-top: 15pt;
@@ -111,7 +111,7 @@ h2.Zweispaltig {
 }
 
 h3 {
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: Neue Helvetica, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 12pt;
   font-style: bold;
   margin-top: 2pt;
