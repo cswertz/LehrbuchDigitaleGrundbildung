@@ -7,6 +7,8 @@
 # setzt für git - Zugriff gespeichertes Passwort voraus
 # für git - Zugriff mit "LDB.sh server" aufrufen
 
+cd /home/cswertz/LDB_tmp/lehrbuch/
+
 if [ "$1" == server ]; then
   
   # Dateien aktualisieren, Abbruch wenn es nichts neues gibt
