@@ -57,3 +57,5 @@ prince: Creative_Commons_Lizenzspektrum_DE.png: warning: can't open input file: 
 Caution: quantization tables are too coarse for baseline JPEG
 prince: Creative_Commons_Lizenzspektrum_DE.png: warning: can't open input file: No such file or directory
 Caution: quantization tables are too coarse for baseline JPEG
+prince: Creative_Commons_Lizenzspektrum_DE.png: warning: can't open input file: No such file or directory
+Caution: quantization tables are too coarse for baseline JPEG
